@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Android Developer portfolio showcasing Kotlin, Jetpack Compose and Android projects.">
+
+    <title>Android Developer | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Android<span>.</span></a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a href="#contact" class="nav-button">Let's Talk</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, I'M AN ANDROID DEVELOPER</p>
+
+                <h1>
+                    Building Android
+                    <span>Applications</span>
+                    That Matter.
+                </h1>
+
+                <p class="hero-description">
+                    I develop modern, scalable and user-friendly Android
+                    applications using Kotlin, Jetpack Compose and
+                    Clean Architecture.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work
+                    </a>
+
+                    <a href="assets/resume/Satyam_Singh_Updated_CV_FinTech.pdf" class="btn btn-outline"
+                        download="Satyam_Singh_Updated_CV_FinTech.pdf">
+                        <span>↓</span> Download Resume
+
+                    </a>
+
+                </div>
+
+
+                <div class="hero-tech">
+                    <span>Kotlin</span>
+                    <span>Jetpack Compose</span>
+                    <span>MVVM</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-card">
+                    <div class="code-header">
+                        <span></span><span></span><span></span>
+                        <small>Developer.kt</small>
+                    </div>
+
+                    <pre><code><span class="code-purple">class</span> AndroidDeveloper {
+
+  <span class="code-purple">val</span> skills = listOf(
+    <span class="code-green">"Kotlin"</span>,
+    <span class="code-green">"Jetpack Compose"</span>,
+    <span class="code-green">"MVVM"</span>,
+    <span class="code-green">"Clean Architecture"</span>
+  )
+
+  <span class="code-purple">fun</span> buildApps() {
+    <span class="code-yellow">println</span>(
+      <span class="code-green">"Building great apps!"</span>
+    )
+  }
+}</code></pre>
+                </div>
+                <div class="floating-badge">✦ Kotlin Developer</div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section container" id="about">
+
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+
+            <div class="about-content">
+
+                <div class="about-text">
+                    <h3>Hi, I'm an Android Developer.</h3>
+
+                    <p>
+                        I am an Android Developer with around 3 years
+                        of professional experience building Android
+                        applications using Kotlin and Java.
+                    </p>
+
+                    <p>
+                        I specialize in modern Android development,
+                        Jetpack Compose, MVVM architecture,
+                        Coroutines, Flow and scalable application design.
+                    </p>
+
+                    <p>
+                        I have worked on POS payment applications
+                        and am also developing native Android
+                        applications using Clean Architecture.
+                    </p>
+
+                    <p>
+                        My goal is to build reliable, scalable and
+                        user-friendly mobile applications while
+                        continuously improving my technical skills.
+                    </p>
+
+                    <div class="profile-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+
+                        <a href="assets/resume/Satyam_Singh_Updated_CV_FinTech.pdf" class="btn btn-outline"
+                            download="Satyam_Singh_Updated_CV_FinTech.pdf">
+                            Download My Resume ↓
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="about-stats">
+
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>Android</h3>
+                        <p>Development Focus</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>Kotlin</h3>
+                        <p>Primary Language</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Compose</h3>
+                        <p>Modern UI Toolkit</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section container" id="skills">
+            <p class="section-label">MY TECH STACK</p>
+            <h2>Technical <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Android Development</h3>
+                    <p>Kotlin · Java · Android SDK · Jetpack Compose</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Architecture</h3>
+                    <p>MVVM · Clean Architecture · Repository Pattern</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Jetpack Libraries</h3>
+                    <p>Room · Navigation · ViewModel · WorkManager</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Asynchronous Programming</h3>
+                    <p>Coroutines · Flow · StateFlow · SharedFlow</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Dependency Injection</h3>
+                    <p>Hilt · Dagger</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Collaboration</h3>
+                    <p>Android Studio · Git · GitHub · Gradle</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section container" id="projects">
+
+            <p class="section-label">MY RECENT WORK</p>
+            <h2>Featured <span>Projects</span></h2>
+
+            <p class="projects-intro">
+                Here are some Android applications and development
+                projects that showcase my technical skills.
+            </p>
+
+            <div class="projects-grid">
+
+                <!-- HAPINI -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/projects/hapini/image.png" alt="Hapini home services application screenshot"
+                            loading="lazy">
+                    </div>
+
+                    <div class="project-body">
+
+                        <p class="project-type">PERSONAL / PRODUCT PROJECT</p>
+
+                        <h3>Hapini – Home Services App</h3>
+
+                        <p>
+                            A native Android application for discovering
+                            home services and managing service bookings.
+                        </p>
+
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Native Jetpack Compose interface</li>
+                            <li>Service categories and discovery</li>
+                            <li>Booking management</li>
+                            <li>MVVM and Clean Architecture</li>
+                        </ul>
+
+                        <div class="project-tags">
+                            <span>Kotlin</span>
+                            <span>Compose</span>
+                            <span>MVVM</span>
+                            <span>Room</span>
+                        </div>
+
+                        <a href="https://hapini.in" target="_blank" rel="noopener noreferrer">
+                            Visit Website ↗
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <!-- EXPENSEFLOW -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/projects/expenseflow/image.png" alt="ExpenseFlow expense tracker dashboard"
+                            loading="lazy">
+                    </div>
+
+                    <div class="project-body">
+
+                        <p class="project-type">PERSONAL PROJECT</p>
+
+                        <h3>ExpenseFlow – Expense Tracker</h3>
+
+                        <p>
+                            An Android expense management application
+                            designed to track and organize daily expenses.
+                        </p>
+
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Expense tracking</li>
+                            <li>Transaction management</li>
+                            <li>Modern Compose UI</li>
+                            <li>Local data persistence</li>
+                        </ul>
+
+                        <div class="project-tags">
+                            <span>Kotlin</span>
+                            <span>Compose</span>
+                            <span>Room</span>
+                            <span>MVVM</span>
+                        </div>
+
+                        <span class="project-note">
+                            Professional project – details limited
+                        </span>
+
+                    </div>
+                </article>
+
+
+                <!-- POS APPLICATION -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/projects/pos/image.png" alt="POS payment application screen" loading="lazy">
+                    </div>
+
+                    <div class="project-body">
+
+                        <p class="project-type">PROFESSIONAL EXPERIENCE</p>
+
+                        <h3>POS Payment Application</h3>
+
+                        <p>
+                            Android POS application development
+                            involving payment workflows, terminal
+                            interfaces and hardware integration.
+                        </p>
+
+                        <h4>Technical Contributions</h4>
+                        <ul>
+                            <li>Android application development</li>
+                            <li>Payment workflow implementation</li>
+                            <li>POS terminal UI integration</li>
+                            <li>Hardware-related troubleshooting</li>
+                        </ul>
+
+                        <div class="project-tags">
+                            <span>Kotlin</span>
+                            <span>Android SDK</span>
+                            <span>POS</span>
+                            <span>Payments</span>
+                        </div>
+
+                        <span class="project-note">
+                            Professional project – details limited
+                        </span>
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section class="section container" id="experience">
+            <p class="section-label">MY JOURNEY</p>
+            <h2>Work <span>Experience</span></h2>
+
+            <div class="experience-card">
+                <div class="experience-dot"></div>
+                <div>
+                    <p class="section-label">ANDROID DEVELOPMENT</p>
+                    <h3>Android Developer</h3>
+                    <p class="experience-company">Chetu India Pvt. Ltd.</p>
+                    <p>
+                        Worked on Android application development
+                        using Kotlin, including POS payment
+                        application workflows and device integration.
+                    </p>
+                    <span class="experience-duration">
+                        Add your exact employment dates
+                    </span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section container" id="contact">
+
+            <div class="contact-card">
+
+                <p class="section-label">LET'S CONNECT</p>
+
+                <h2>Let's Build Something <span>Great.</span></h2>
+
+                <p class="contact-description">
+                    Have an Android development opportunity,
+                    freelance project or collaboration in mind?
+                    Send me a message.
+                </p>
+
+                <div class="contact-layout">
+
+                    <!-- CONTACT INFORMATION -->
+                    <div class="contact-info">
+
+                        <h3>Get in touch</h3>
+
+                        <p>
+                            I'm open to Android Developer opportunities
+                            and interesting projects.
+                        </p>
+
+                        <div class="contact-item">
+                            <span>✉</span>
+                            <div>
+                                <small>Email</small>
+                                <a href="mailto:ssb200255@gmail.com">
+                                    ssb200255@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>💼</span>
+                            <div>
+                                <small>LinkedIn</small>
+                                <a href="https://www.linkedin.com/in/satyam-singh-b62373191?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Connect on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>💻</span>
+                            <div>
+                                <small>GitHub</small>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    View GitHub Profile
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- CONTACT FORM -->
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/meagajap"
+                        method="POST">
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" minlength="2"
+                                maxlength="80" autocomplete="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" maxlength="254"
+                                autocomplete="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Job opportunity / Freelance"
+                                maxlength="120" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" minlength="10" maxlength="5000"
+                                placeholder="Write your message..." required></textarea>
+                        </div>
+
+                        <!-- Basic spam honeypot -->
+                        <div class="form-honeypot" aria-hidden="true">
+                            <label for="website">Leave this field empty</label>
+                            <input type="text" id="website" name="_gotcha" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <button type="submit" id="submitButton" class="btn btn-primary submit-button">
+                            Send Message →
+                        </button>
+
+                        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Android Developer Portfolio.
+            Built with passion and Kotlin.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
